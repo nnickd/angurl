@@ -1,0 +1,9 @@
+<div ng-controller="HomeController" class="container">
+  <div class="field">
+    <input ng-model="curl" />
+    <button type="button" class="button" ng-click="updateUrl()">GO</button>
+  </div>
+  <div class="frame">
+    <iframe src="{{ searchedUrl }}"></iframe>
+  </div>
+</div>
