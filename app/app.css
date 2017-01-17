@@ -19,7 +19,13 @@ input {
   width: 600px;
   height: 60px;
   margin: auto 0 auto auto;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  background-color: #3B3F3A;
+  color: #00A14E;
+  text-align: center;
+  font-size: 2em;
 }
 
 button {
@@ -27,7 +33,15 @@ button {
   height: 60px;
   margin: auto auto auto 0;
   background-color: #00A14E;
+  color: #3B3F3A;
   border: none;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  font-size: 2em;
+}
+
+button:hover {
+  cursor: pointer;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
