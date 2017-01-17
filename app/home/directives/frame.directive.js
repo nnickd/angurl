@@ -8,7 +8,7 @@ function curlFrame() {
     scope: {
       curl: '='
     },
-    templateUrl: 'home/home.directive.html',
+    templateUrl: 'home/directives/frame.directive.html',
   };
 
 }
