@@ -6,7 +6,7 @@ function CurlController($scope, $sce) {
   $scope.curl = '';
 
   $scope.updateCurl = function() {
-    $scope.searchedCurl = $sce.trustAsResourceUrl($scope.curl);
+    $scope.newCurl = $sce.trustAsResourceUrl($scope.curl);
   }
 
 }
