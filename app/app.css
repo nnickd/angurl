@@ -1,73 +1,76 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .field {
-  display: flex;
+    display: flex;
 }
 
 form {
-  margin: auto;
+    margin: auto;
 }
 
 input {
-  width: 600px;
-  height: 60px;
-  margin: auto 0 auto auto;
-  border: none;
-  border-radius: 3px;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
-  background-color: #3B3F3A;
-  color: #00A14E;
-  text-align: center;
-  font-size: 2em;
+    width: 600px;
+    height: 60px;
+    margin: 3px 0 auto auto;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    background-color: #3B3F3A;
+    color: #00A14E;
+    text-align: center;
+    font-size: 2em;
 }
 
 button {
-  width: 120px;
-  height: 60px;
-  margin: auto auto auto 0;
-  background-color: #00A14E;
-  color: #3B3F3A;
-  border: none;
-  border-radius: 3px;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
-  font-size: 2em;
+    width: 120px;
+    height: 60px;
+    margin: auto auto auto 0;
+    background-color: #00A14E;
+    color: #3B3F3A;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    font-size: 2em;
 }
 
 button:hover {
-  cursor: pointer;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.hide {
+  display: flex;
+  width: 100%;
+  height: 10px;
 }
 
 .frame {
-  display: flex;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
+    display: flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
 }
 
 iframe {
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
 @media only screen and (max-width: 750px) {
-   input {
-       /*margin: auto auto auto 0;*/
-       width: 74%;
-   }
-   button {
-     width: 24%;
-     /*margin: auto 0 auto auto;*/
-   }
-
+    input {
+        width: 74%;
+    }
+    button {
+        width: 24%;
+    }
 }

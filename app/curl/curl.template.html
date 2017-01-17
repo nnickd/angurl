@@ -1,4 +1,5 @@
 <div ng-controller="CurlController" class="container">
-  <curl-form curl="curl" update-curl="updateCurl()"></curl-form>
+  <button type="button" class="hide" ng-click="hideField()"></button>
+  <curl-form curl="curl" update-curl="updateCurl()" ng-hide="hide"></curl-form>
   <curl-frame curl="newCurl"></curl-frame>
 </div>
