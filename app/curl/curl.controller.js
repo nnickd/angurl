@@ -1,8 +1,8 @@
 angular
   .module('app')
-  .controller('HomeController', HomeController);
+  .controller('CurlController', CurlController);
 
-function HomeController($scope, $sce) {
+function CurlController($scope, $sce) {
   $scope.curl = '';
 
   $scope.updateCurl = function() {
