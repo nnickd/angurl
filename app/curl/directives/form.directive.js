@@ -9,7 +9,7 @@ function curlForm() {
       curl: '=',
       updateCurl: '&'
     },
-    templateUrl: 'curl/directives/form.directive.html',
+    templateUrl: 'curl/directives/form.directive.html'
   };
 
 }

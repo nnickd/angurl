@@ -29,7 +29,7 @@ input {
 }
 
 button {
-  width: 60px;
+  width: 120px;
   height: 60px;
   margin: auto auto auto 0;
   background-color: #00A14E;
@@ -58,4 +58,16 @@ button:hover {
 iframe {
   height: 100%;
   width: 100%;
+}
+
+@media only screen and (max-width: 750px) {
+   input {
+       /*margin: auto auto auto 0;*/
+       width: 74%;
+   }
+   button {
+     width: 24%;
+     /*margin: auto 0 auto auto;*/
+   }
+
 }
