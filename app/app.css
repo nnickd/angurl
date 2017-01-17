@@ -11,6 +11,10 @@
   display: flex;
 }
 
+form {
+  margin: auto;
+}
+
 input {
   width: 600px;
   height: 60px;

@@ -1,9 +1,11 @@
 <div ng-controller="HomeController" class="container">
   <div class="field">
-    <input ng-model="curl" />
-    <button type="button" class="button" ng-click="updateUrl()">GO</button>
+    <form>
+      <input ng-model="curl" />
+      <button type="button" class="button" ng-click="updateCurl()">GO</button>
+    </form>
   </div>
-  <div class="frame">
-    <iframe src="{{ searchedUrl }}"></iframe>
-  </div>
+
+  <curl-frame curl="searchedCurl"></curl-frame>
+
 </div>

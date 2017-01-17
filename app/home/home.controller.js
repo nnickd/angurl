@@ -5,8 +5,8 @@ angular
 function HomeController($scope, $sce) {
   $scope.curl = '';
 
-  $scope.updateUrl = function() {
-    $scope.searchedUrl = $sce.trustAsResourceUrl($scope.curl);
+  $scope.updateCurl = function() {
+    $scope.searchedCurl = $sce.trustAsResourceUrl($scope.curl);
   }
 
 }
